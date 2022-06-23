@@ -1,0 +1,25 @@
+/* General */
+:root {
+    --color-white: #ebfbfc;
+    --color-blue: #39c;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Courier Prime', monospace;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--color-white);
+  }
+
+.body--background{
+    background-color: #3a3d42;
+}
+
+/* About Me */
+.intro--greeting{
+    color: var(--color-blue);
+}
