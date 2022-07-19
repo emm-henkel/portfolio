@@ -2,12 +2,18 @@
 :root {
     --color-white: #ebfbfc;
     --color-blue: #39c;
+    --color-dark-blue: #268;
     --color-grey: #3a3d42;
 }
 
 a {
     text-decoration: none;
-  }
+    color: var(--color-blue);
+}
+
+a:hover{
+    color: var(--color-dark-blue);
+}
 
 html {
     font-size: 62.5%;
@@ -57,6 +63,10 @@ section{
 
 .fa-github-square, .fa-linkedin, .fa-envelope{
     color: var(--color-white);
+}
+
+.fa-github-square:hover, .fa-linkedin:hover, .fa-envelope:hover{
+    color: var(--color-blue) !important;
 }
 
 /* Navigation Bar */
