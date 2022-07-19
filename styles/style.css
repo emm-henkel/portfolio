@@ -2,6 +2,7 @@
 :root {
     --color-white: #ebfbfc;
     --color-blue: #39c;
+    --color-grey: #3a3d42;
 }
 
 a {
@@ -12,9 +13,10 @@ html {
     font-size: 62.5%;
 }
 
-h1,h2,h3 {
+h1, h2 {
     font-size: 2rem;
     text-decoration: none;
+    font-weight: normal;
 }
 
 body {
@@ -31,7 +33,7 @@ section{
 }
 
 .body--background{
-    background-color: #3a3d42;
+    background-color: var(--color-grey);
 }
 
 .list {
@@ -46,20 +48,25 @@ section{
 
 @media screen and (max-width: 768px){
     body{
-        padding-top: 6rem;
+        padding-top: 7rem;
+        text-align: center;
     }
 }
 
-/* About Me */
+/* Contact Me */
 
+.fa-github-square, .fa-linkedin, .fa-envelope{
+    color: var(--color-white);
+}
 
 /* Navigation Bar */
 .nav {
     top: 0%;
     position: fixed;
-    background: #000;
+    background: none;
     padding: 1rem;
     width: 100%;
+    background-color: var(--color-grey);
 }
   
 .nav__list {
@@ -91,5 +98,6 @@ section{
 @media screen and (max-width: 768px){
     .nav__list{
         flex-direction: column;
+        text-align: center;
     }
 }
