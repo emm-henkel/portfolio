@@ -30,6 +30,7 @@ body {
     font-size: 2rem;
     line-height: 1.5;
     color: var(--color-white);
+    margin-bottom: 10rem;
 }
 
 section{
@@ -67,6 +68,17 @@ section{
 
 .fa-github-square:hover, .fa-linkedin:hover, .fa-envelope:hover{
     color: var(--color-blue) !important;
+}
+
+.contactme--icon{
+    display: inline;
+    list-style-type: none;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.contactme--list{
+    padding-left: 0;
 }
 
 /* Navigation Bar */
@@ -110,4 +122,10 @@ section{
         flex-direction: column;
         text-align: center;
     }
+}
+
+/* Resume */
+.resume--icon{
+    padding-left: 2rem;
+    margin-bottom: 2rem;
 }
