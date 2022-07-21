@@ -15,7 +15,7 @@ a {
 }
 
 a:hover{
-    color: var(--color-dark-blue);
+    color: var(--color-green);
 }
 
 html {
@@ -32,7 +32,7 @@ body {
     font-family: 'Courier Prime', monospace;
     font-size: 2rem;
     line-height: 1.5;
-    color: var(--color-white);
+    color: var(--color-cream);
     margin-bottom: 25rem;
 }
 
@@ -43,7 +43,7 @@ section{
 }
 
 .body--background{
-    background-color: var(--color-grey);
+    background-color: var(--color-brown);
 }
 
 .list {
@@ -65,12 +65,16 @@ section{
 
 /* Contact Me */
 
-.fa-github-square, .fa-linkedin, .fa-envelope{
-    color: var(--color-white);
+.icon{
+    color: var(--color-blue);
 }
 
-.fa-github-square:hover, .fa-linkedin:hover, .fa-envelope:hover{
-    color: var(--color-blue) !important;
+.icon:hover{
+    color: var(--color-green) !important;
+}
+
+.icon:active{
+    color: var(--color-cream);
 }
 
 .contactme--icon{
@@ -87,11 +91,11 @@ section{
 /* Navigation Bar */
 .nav {
     top: 0%;
-    position: fixed;
+    position: absolute;
     background: none;
     padding: 1rem;
     width: 100%;
-    background-color: var(--color-grey);
+    background-color: var(--color-brown);
 }
   
 .nav__list {
@@ -112,12 +116,12 @@ section{
 }
   
 .nav__item > a {
-    color: var(--color-white);
+    color: var(--color-cream);
     transition: color 0.3s;
 }
   
 .nav__item > a:hover {
-    color: var(--color-blue);
+    color: var(--color-green);
 }
 
 @media screen and (max-width: 768px){
