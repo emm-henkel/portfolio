@@ -1,9 +1,12 @@
 /* General */
 :root {
     --color-white: #ebfbfc;
-    --color-blue: #39c;
+    --color-blue: #3bdcf5;
     --color-dark-blue: #268;
     --color-grey: #3a3d42;
+    --color-green: #0f7;
+    --color-brown: #4d2704;
+    --color-cream: #faf7bb;
 }
 
 a {
